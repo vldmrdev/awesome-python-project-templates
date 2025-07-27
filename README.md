@@ -1,26 +1,36 @@
-## Awesome Python Project Templates
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+## Awesome Python Project Templates [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A collection of ready-to-use templates for quickly starting Python projects.  
 Perfect for beginners and teams who want to kickstart development with clean structure and best practices.
 
 ### Templates list:
 - [FastAPI templates](#fastapi-templates)
-- [Django temlates](#django-templates)
-
+- [Django templates](#django-templates)
+- [PyPi package template](#pypi)
+- [CLI tools template](#cli)
 
 
 ---
+:cookie: - [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) based template
+
+## FastAPI Templates:
+*FastAPI based project templates*
+- :cookie: [ Full Stack FastAPI Template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React, Docker Compose, Pytest, Traefik, CI/CD.    
 
 
-### FastAPI Templates:
-- FastAPI Fullstack project: https://github.com/tiangolo/full-stack-fastapi-postgresql*
+## Django Templates:
+*templates for Django projects*
+- :cookie: [Django project](https://github.com/cookiecutter/cookiecutter-django) - Django 5.1, Twitter Bootstrap v5, django-allauth, 100% starting test coverage, etc. 
+- :cookie: [Django-plugin](https://github.com/simonw/django-plugin) - for creating new DJP Django Plugins 
 
 
-### Django Templates:
-- Django project: https://github.com/cookiecutter/cookiecutter-django
+## PyPi:
+*Ready for PyPi project templates and tools*
+- [PyPi template tool](https://github.com/christophevg/pypi-template) - pypi-template tool 
+- [PyScaffold template generator](https://github.com/pyscaffold/pyscaffold) - super configurable project generator tool
+- :cookie: [Python library](https://github.com/simonw/python-lib) - PyPI project  template tool with GitHub Flow features 
 
 
-### Other templates:
-- PyPi package: https://github.com/TezRomacH/python-package-template
-- Click based CLI tool: https://github.com/simonw/click-app
+## CLI
+*CLI tool templates*
+- :cookie: [CLI template](https://github.com/simonw/click-app) - Click based CLI tool template 
