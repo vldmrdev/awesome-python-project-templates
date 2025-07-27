@@ -15,7 +15,8 @@ Perfect for beginners and teams who want to kickstart development with clean str
 
 ## FastAPI Templates:
 *FastAPI based project templates*
-- :cookie: [ Full Stack FastAPI Template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React, Docker Compose, Pytest, Traefik, CI/CD.    
+- :cookie: [Full Stack FastAPI Template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React, Docker Compose, Pytest, Traefik, CI/CD.
+- [FastAPI LangGraph Agent Template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) - FastAPI, LangGraph, Langfuse, Docker and Docker Compose, PostgreSQL, Prometheus and Grafana, etc.
 
 
 ## Django Templates:
@@ -33,4 +34,8 @@ Perfect for beginners and teams who want to kickstart development with clean str
 
 ## CLI
 *CLI tool templates*
-- :cookie: [CLI template](https://github.com/simonw/click-app) - Click based CLI tool template 
+- :cookie: [CLI template](https://github.com/simonw/click-app) - Click based CLI tool template
+
+
+## Contributing
+Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
