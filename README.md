@@ -3,7 +3,7 @@
 A collection of ready-to-use templates for quickly starting Python projects.  
 Perfect for beginners and teams who want to kickstart development with clean structure and best practices.
 
-### Templates list:
+### Templates list
 - [FastAPI templates](#fastapi-templates)
 - [Django templates](#django-templates)
 - [PyPi package template](#pypi)
@@ -13,19 +13,19 @@ Perfect for beginners and teams who want to kickstart development with clean str
 ---
 :cookie: - [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) based template
 
-## FastAPI Templates:
+## FastAPI Templates
 *FastAPI based project templates*
 - :cookie: [Full Stack FastAPI Template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React, Docker Compose, Pytest, Traefik, CI/CD.
 - [FastAPI LangGraph Agent Template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) - FastAPI, LangGraph, Langfuse, Docker and Docker Compose, PostgreSQL, Prometheus and Grafana, etc.
 
 
-## Django Templates:
-*templates for Django projects*
+## Django Templates
+*Templates for Django projects*
 - :cookie: [Django project](https://github.com/cookiecutter/cookiecutter-django) - Django 5.1, Twitter Bootstrap v5, django-allauth, 100% starting test coverage, etc. 
 - :cookie: [Django-plugin](https://github.com/simonw/django-plugin) - for creating new DJP Django Plugins 
 
 
-## PyPi:
+## PyPi
 *Ready for PyPi project templates and tools*
 - [PyPi template tool](https://github.com/christophevg/pypi-template) - pypi-template tool 
 - [PyScaffold template generator](https://github.com/pyscaffold/pyscaffold) - super configurable project generator tool
