@@ -6,8 +6,8 @@ Perfect for beginners and teams who want to kickstart development with clean str
 ### Table of Content
 - [FastAPI templates](#fastapi-templates)
 - [Django templates](#django-templates)
-- [PyPi package template](#pypi)
-- [CLI tools template](#cli)
+- [PyPi package templates](#pypi)
+- [CLI tools templates](#cli)
 - [Contributing](#contributing)
 
 
