@@ -1,6 +1,6 @@
 ## Awesome Python Project Templates [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of ready-to-use templates for quickly starting Python projects.  
+A collection of ready-to-use for local development opensource templates for quickly starting Python projects.  
 Perfect for beginners and teams who want to kickstart development with clean structure and best practices.
 
 ### Table of Content
