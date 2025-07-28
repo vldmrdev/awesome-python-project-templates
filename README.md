@@ -3,11 +3,12 @@
 A collection of ready-to-use templates for quickly starting Python projects.  
 Perfect for beginners and teams who want to kickstart development with clean structure and best practices.
 
-### Templates list
+### Table of Content
 - [FastAPI templates](#fastapi-templates)
 - [Django templates](#django-templates)
 - [PyPi package template](#pypi)
 - [CLI tools template](#cli)
+- [Contributing](#contributing)
 
 
 ---
