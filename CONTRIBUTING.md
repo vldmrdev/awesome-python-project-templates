@@ -1,6 +1,7 @@
 [How to Contribute on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 #### Some simple contributing rules:
+- One template or one section + template per one PR
 - No need to add similar templates. Since there are many templates in the world, there is no point in adding similar templates — such PRs will be rejected.
 - If you have a template and there is a similar, more starred template, then it makes sense to add a change to that template rather than duplicating it.
 - No need to write in the short description that this is a template, for Python, etc.
