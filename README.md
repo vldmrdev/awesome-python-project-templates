@@ -17,7 +17,7 @@ Perfect for beginners and teams who want to kickstart development with clean str
 ## FastAPI
 
 *FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type
-hints.*
+hints*
 
 - :cookie: [Full Stack FastAPI template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React,
   Docker Compose, Pytest, Traefik, CI/CD.
@@ -27,15 +27,14 @@ hints.*
 ## Haystack
 
 *Haystack is an end-to-end LLM framework that allows you to build applications powered by LLMs, Transformer models,
-vector search and more.*
+vector search and more*
 
 - [Haystack Apps with Streamlit template](https://github.com/deepset-ai/haystack-streamlit-app?tab=readme-ov-file#installation-and-running) -
   Haystack, Streamlit, lmnt, RAG
 
 ## Django
 
-*Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Thanks for
-checking it out*
+*Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design*
 
 - :cookie: [Django project template](https://github.com/cookiecutter/cookiecutter-django) - Django 5.1, Twitter Bootstrap v5,
   django-allauth, 100% starting test coverage, etc.
