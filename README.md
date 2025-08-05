@@ -6,6 +6,7 @@ Perfect for beginners and teams who want to kickstart development with clean str
 ### Table of Content
 
 - [FastAPI templates](#fastapi)
+- [FastStream templates](#faststream)
 - [Django templates](#django)
 - [PyPi package templates](#pypi)
 - [CLI tools templates](#cli)
@@ -16,17 +17,20 @@ Perfect for beginners and teams who want to kickstart development with clean str
 
 ## FastAPI
 
-*FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type
+*[FastAPI](https://github.com/fastapi/fastapi) is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type
 hints*
 
-- :cookie: [Full Stack FastAPI template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React,
+- :cookie: [Official Full Stack FastAPI template](https://github.com/tiangolo/full-stack-fastapi-postgresql) - FastAPI, PostgreSQL, React,
   Docker Compose, Pytest, Traefik, CI/CD.
 - [FastAPI LangGraph Agent template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) - FastAPI,
   LangGraph, Langfuse, Docker and Docker Compose, PostgreSQL, Prometheus and Grafana, etc.
 
-## Haystack
+## FastStream
+*[FastStream](https://github.com/ag2ai/faststream) simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.*
+- :cookie: [Official FastStream template](https://github.com/ag2ai/cookiecutter-faststream) - FastStream, Pytest, linters, GitHub Actions, AsyncAPI Documentation, Docker 
 
-*Haystack is an end-to-end LLM framework that allows you to build applications powered by LLMs, Transformer models,
+## Haystack
+*[Haystack](https://github.com/deepset-ai/haystack) is an end-to-end LLM framework that allows you to build applications powered by LLMs, Transformer models,
 vector search and more*
 
 - [Haystack Apps with Streamlit template](https://github.com/deepset-ai/haystack-streamlit-app?tab=readme-ov-file#installation-and-running) -
@@ -34,7 +38,7 @@ vector search and more*
 
 ## Django
 
-*Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design*
+*[Django](https://github.com/django/django) is a high-level Python web framework that encourages rapid development and clean, pragmatic design*
 
 - :cookie: [Django project template](https://github.com/cookiecutter/cookiecutter-django) - Django 5.1, Twitter Bootstrap v5,
   django-allauth, 100% starting test coverage, etc.
@@ -42,7 +46,7 @@ vector search and more*
 
 ## PyPi
 
-*PyPi or Python Package Index is the official third-party software repository for Python*
+*[PyPi](https://pypi.org/) or Python Package Index is the official third-party software repository for Python*
 
 - [PyPi template tool template](https://github.com/christophevg/pypi-template) - pypi-template tool
 - [PyScaffold template generator template](https://github.com/pyscaffold/pyscaffold) - super configurable project generator tool
@@ -60,7 +64,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 
 ### TODO:
   - [ ] Add Litestar templates
-  - [ ] Add FastStream templates
+  - [x] Add FastStream templates
   - [ ] Add FastUI templates
   - [ ] Add Gradio templates
   - [ ] Add Flask templates
