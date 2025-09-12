@@ -66,10 +66,3 @@ vector search and more*
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
-
-### TODO:
-  - [ ] Add Litestar templates
-  - [x] Add FastStream templates
-  - [ ] Add FastUI templates
-  - [ ] Add Gradio templates
-  - [ ] Add Flask templates
