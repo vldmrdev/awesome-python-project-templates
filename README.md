@@ -25,6 +25,7 @@ hints*
   Docker Compose, Pytest, Traefik, CI/CD.
 - [FastAPI LangGraph Agent template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) - FastAPI,
   LangGraph, Langfuse, Docker and Docker Compose, PostgreSQL, Prometheus and Grafana, etc.
+- :cookie: [Clean Architecture FastAPI template](https://github.com/Peopl3s/clean-architecture-fastapi-project-template) - FastAPI, DBMS(PostgreSQL/SQLite/MySQL), Alembic, Docker, Caching System(Redis/KeyDB/Tarantool/Dragonfly), Message Broker(Kafka/RabbitMQ/NATS), Pre-commit
 
 ## FastStream
 *[FastStream](https://github.com/ag2ai/faststream) simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.*
