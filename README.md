@@ -30,11 +30,12 @@ hints*
 ## FastStream
 *[FastStream](https://github.com/ag2ai/faststream) simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.*
 - :cookie: [Official FastStream template](https://github.com/ag2ai/cookiecutter-faststream) - FastStream, Pytest, linters, GitHub Actions, AsyncAPI Documentation, Docker
-
+- [FastStream Monitoring](https://github.com/faststream-community/faststream-monitoring) - FastStream, Grafana Tempo, Grafana, Prometheus, docker-compose
+- [dishka-faststream](https://github.com/faststream-community/dishka-faststream) - FastStream integration for [Dishka](https://github.com/reagento/dishka)
 ## Litestar
 *[Litestar](https://github.com/litestar-org/litestar) is a powerful, flexible yet opinionated ASGI framework, focused on building APIs. It offers high-performance data validation, dependency injection, first-class ORM integration, authorization primitives, a rich plugin API, middleware, and much more that's needed to get applications up and running.*
 - [Official Litestar Fullstack template](https://github.com/litestar-org/litestar-fullstack) - Litestar, Vite, PostgreSQL, SQLAlchemy, Docker Compose, jinja, JWT, Redis, Structlog, linters, tests
-
+- [Litestar-Dishka-FastStream](https://github.com/faststream-community/litestar-dishka-faststream) - "Clean architecture" example in combining: Litestar, Dishka, FastStream
 ## Haystack
 *[Haystack](https://github.com/deepset-ai/haystack) is an end-to-end LLM framework that allows you to build applications powered by LLMs, Transformer models,
 vector search and more*
