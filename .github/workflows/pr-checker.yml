@@ -11,11 +11,15 @@ jobs:
     steps:
       - name: Checkout PR
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Get list of changed files
         run: |
           CHANGED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.sha }})
           echo "Changed files: $CHANGED_FILES"
+          echo "Base commit: ${{ github.event.pull_request.base.sha }}"
+          echo "Current commit: ${{ github.sha }}"
 
           if [[ "$CHANGED_FILES" == *"README.md"* ]]; then
             echo "README.md file is allowed to change."
