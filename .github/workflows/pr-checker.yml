@@ -21,7 +21,7 @@ jobs:
           echo "Base commit: ${{ github.event.pull_request.base.sha }}"
           echo "Current commit: ${{ github.sha }}"
 
-          if [[ "$CHANGED_FILES" == *"README.md"* ]]; then
+          if [[ "$CHANGED_FILES" == "README.md" ]]; then
             echo "README.md file is allowed to change."
           else
             echo "Only README.md is allowed to change. Found changes in $CHANGED_FILES"
