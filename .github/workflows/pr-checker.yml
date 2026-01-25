@@ -22,8 +22,8 @@ jobs:
           echo "Current commit: ${{ github.sha }}"
 
           if [[ "$CHANGED_FILES" == "README.md" ]]; then
-            echo "README.md file is allowed to change."
+            echo ":white_check_mark: README.md file is allowed to change."
           else
-            echo "Only README.md is allowed to change. Found changes in $CHANGED_FILES"
+            echo ":x: Only README.md is allowed to change. Found changes or restricted files: $CHANGED_FILES"
             exit 1
           fi
