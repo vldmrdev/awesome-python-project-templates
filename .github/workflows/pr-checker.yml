@@ -8,18 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Check for new files
         run: |
-          ALLOWED='^README\.md$'
-          CHANGED=$(git diff --name-only --diff-filter=AM \
-            ${{ github.event.pull_request.base.sha }} \
-            ${{ github.event.pull_request.head.sha }})
+          ALLOWED_REGEX='^README\.md$'
+          
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.event.pull_request.base.ref }}...HEAD)
+          echo "Changed files: $CHANGED_FILES"
 
-          INVALID=$(echo "$CHANGED" | grep -vE "$ALLOWED" || true)
+          INVALID=$(echo "$CHANGED_FILES" | grep -vE "$ALLOWED_REGEX" || true)
 
           if [ -n "$INVALID" ]; then
-            echo "Only README.md may be changed. Forbidden files:"
+            echo "Only README.md is allowed to change. Found:"
             echo "$INVALID"
             exit 1
           fi
