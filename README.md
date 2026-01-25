@@ -1,6 +1,6 @@
 ## Awesome Python Project Templates collection
 
-A collection of ready-to-use for local development opensource templates for quickly starting Python projects.  
+A repositories collection(url list) of ready-to-use opensource templates for quickly starting Python projects.  
 Perfect for beginners and teams who want to kickstart development with clean structure and best practices.
 
 ### Table of Content
