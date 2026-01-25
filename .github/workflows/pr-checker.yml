@@ -1,0 +1,21 @@
+name: PR checker
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Check for new files
+        run: |
+          ALLOWED_FILES="^README\.md$"
+          INVALID=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.sha }} | grep -vE "$ALLOWED_REGEX" || true)
+          
+          if [ -n "$INVALID" ]; then
+            echo "❌ Only README.md allowed to change:"
+            echo "$INVALID"
+            exit 1
+          fi
