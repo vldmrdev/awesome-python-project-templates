@@ -11,11 +11,15 @@ jobs:
 
       - name: Check for new files
         run: |
-          ALLOWED_FILES="^README\.md$"
-          INVALID=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.sha }} | grep -vE "$ALLOWED_REGEX" || true)
-          
+          ALLOWED='^README\.md$'
+          CHANGED=$(git diff --name-only --diff-filter=AM \
+            ${{ github.event.pull_request.base.sha }} \
+            ${{ github.event.pull_request.head.sha }})
+
+          INVALID=$(echo "$CHANGED" | grep -vE "$ALLOWED" || true)
+
           if [ -n "$INVALID" ]; then
-            echo "❌ Only README.md allowed to change:"
+            echo "Only README.md may be changed. Forbidden files:"
             echo "$INVALID"
             exit 1
           fi
