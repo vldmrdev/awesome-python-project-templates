@@ -10,6 +10,7 @@ A collection of repositories (URL list) of ready-to-use open-source templates fo
 - [Django templates](#django)
 - [PyPi package templates](#pypi)
 - [CLI tools templates](#cli)
+- [Related lists](#related-lists)
 - [Contributing](#contributing)
 
 ---
@@ -64,6 +65,10 @@ vector search and more
 Command-line interface tool templates
 
 - :cookie: [CLI template](https://github.com/simonw/click-app) - Click based CLI tool template
+
+## Related lists
+- [awesome-python](https://github.com/vinta/awesome-python) - An opinionated list of awesome Python frameworks, libraries, software and resources.
+
 
 ## Contributing
 
