@@ -46,7 +46,7 @@ vector search and more
 ## Django
 
 [Django](https://github.com/django/django) is a high-level Python web framework that encourages rapid development and clean, pragmatic design
-
+- :cookie: [wemake-django-template](https://github.com/wemake-services/wemake-django-template) - Django 5.2, supports latest python3.13, based on [django-modern-rest](https://github.com/wemake-services/django-modern-rest)
 - :cookie: [Django project template](https://github.com/cookiecutter/cookiecutter-django) - Django 5.1, Twitter Bootstrap v5,
   django-allauth, 100% starting test coverage, etc.
 - :cookie: [Django-plugin template](https://github.com/simonw/django-plugin) - for creating new DJP Django Plugins
